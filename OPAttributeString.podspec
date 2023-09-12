@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OPAttributeString'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '链式编程创建属性字符串'
 
 # This description is used to generate tags and improve search results.
@@ -34,15 +34,15 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'OPAttributeString/Classes/OPAttributeString.h'
   
   s.pod_target_xcconfig   = {
-    'EXCLUDED_ARCHS[sdk=iphones*]' => 'armv7 armv7s',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
-    # 'VALID_ARCHS' => 'arm64'
+    'EXCLUDED_ARCHS[sdk=iphones*]' => 'arm64',
+    #'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
+    'VALID_ARCHS' => 'arm64'
     
   }
   s.user_target_xcconfig  = {
-    'EXCLUDED_ARCHS[sdk=iphones*]' => 'armv7 armv7s',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
-    # 'VALID_ARCHS' => 'arm64'
+    'EXCLUDED_ARCHS[sdk=iphones*]' => 'arm64',
+    #'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
+    'VALID_ARCHS' => 'arm64'
   }
   
   # s.resource_bundles = {
