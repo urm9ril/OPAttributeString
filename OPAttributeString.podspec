@@ -33,8 +33,17 @@ TODO: Add long description of the pod here.
   s.source_files = 'OPAttributeString/Classes/**/*'
   s.public_header_files = 'OPAttributeString/Classes/OPAttributeString.h'
   
-  s.pod_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'VALID_ARCHS' => 'arm64' }
-  s.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'VALID_ARCHS' => 'arm64' }
+  s.pod_target_xcconfig   = {
+    'EXCLUDED_ARCHS[sdk=iphones*]' => 'armv7 armv7s',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
+    # 'VALID_ARCHS' => 'arm64'
+    
+  }
+  s.user_target_xcconfig  = {
+    'EXCLUDED_ARCHS[sdk=iphones*]' => 'armv7 armv7s',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
+    # 'VALID_ARCHS' => 'arm64'
+  }
   
   # s.resource_bundles = {
   #   'OPAttributeString' => ['OPAttributeString/Assets/*.png']
