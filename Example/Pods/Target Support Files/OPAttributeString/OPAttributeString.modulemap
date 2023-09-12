@@ -1,0 +1,6 @@
+framework module OPAttributeString {
+  umbrella header "OPAttributeString-umbrella.h"
+
+  export *
+  module * { export * }
+}

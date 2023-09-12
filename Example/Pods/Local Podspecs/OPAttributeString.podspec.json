@@ -1,0 +1,23 @@
+{
+  "name": "OPAttributeString",
+  "version": "0.1.0",
+  "summary": "A short description of OPAttributeString.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/url9ril/OPAttributeString",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "url9ril": "348043793@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/url9ril/OPAttributeString.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "OPAttributeString/Classes/**/*",
+  "public_header_files": "OPAttributeString/Classes/OPAttributeString.h"
+}

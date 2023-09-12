@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		518E320B2AB0439500704BDE /* DemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 518E320A2AB0439500704BDE /* DemoTableViewCell.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1EA2ADCC912248AF3C2E9FF6 /* OPAttributeString.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OPAttributeString.podspec; path = ../OPAttributeString.podspec; sourceTree = "<group>"; };
+		1EA2ADCC912248AF3C2E9FF6 /* OPAttributeString.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OPAttributeString.podspec; path = ../OPAttributeString.podspec; sourceTree = "<group>"; };
 		4107D61B087D3E9BD5FB8B9D /* Pods-OPAttributeString_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPAttributeString_Tests.release.xcconfig"; path = "Target Support Files/Pods-OPAttributeString_Tests/Pods-OPAttributeString_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E41BE704DF0BFEA84B40447 /* Pods_OPAttributeString_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OPAttributeString_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		527D27FBC0C42A0184B77D9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		518E32092AB0439500704BDE /* DemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewCell.h; sourceTree = "<group>"; };
+		518E320A2AB0439500704BDE /* DemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewCell.m; sourceTree = "<group>"; };
+		527D27FBC0C42A0184B77D9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OPAttributeString_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPAttributeString_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +67,7 @@
 		85C61758888FBA752D15CA7C /* Pods-OPAttributeString_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPAttributeString_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OPAttributeString_Tests/Pods-OPAttributeString_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A186ACE9C7DC69C9E3EF9A32 /* Pods-OPAttributeString_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPAttributeString_Example.release.xcconfig"; path = "Target Support Files/Pods-OPAttributeString_Example/Pods-OPAttributeString_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AFE5D65C6F16A8AB4BFF0311 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AFE5D65C6F16A8AB4BFF0311 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC94AC53A1482E52FBE8D390 /* Pods_OPAttributeString_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OPAttributeString_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE819A24EFCFFAB5A706916 /* Pods-OPAttributeString_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPAttributeString_Example.debug.xcconfig"; path = "Target Support Files/Pods-OPAttributeString_Example/Pods-OPAttributeString_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,8 +106,16 @@
 				85C61758888FBA752D15CA7C /* Pods-OPAttributeString_Tests.debug.xcconfig */,
 				4107D61B087D3E9BD5FB8B9D /* Pods-OPAttributeString_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		518E32082AB0439500704BDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				518E32092AB0439500704BDE /* DemoTableViewCell.h */,
+				518E320A2AB0439500704BDE /* DemoTableViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -144,6 +155,7 @@
 		6003F593195388D20070C39A /* Example for OPAttributeString */ = {
 			isa = PBXGroup;
 			children = (
+				518E32082AB0439500704BDE /* View */,
 				6003F59C195388D20070C39A /* OPAppDelegate.h */,
 				6003F59D195388D20070C39A /* OPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -258,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,6 +379,7 @@
 			files = (
 				6003F59E195388D20070C39A /* OPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* OPViewController.m in Sources */,
+				518E320B2AB0439500704BDE /* DemoTableViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

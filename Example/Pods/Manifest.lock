@@ -1,0 +1,16 @@
+PODS:
+  - OPAttributeString (0.1.0)
+
+DEPENDENCIES:
+  - OPAttributeString (from `../`)
+
+EXTERNAL SOURCES:
+  OPAttributeString:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OPAttributeString: 8ec70861985aadcbd574d4ea1c7d59d8e6738885
+
+PODFILE CHECKSUM: 119b5be3c7c34286d91235d502cce6061249f389
+
+COCOAPODS: 1.12.1
