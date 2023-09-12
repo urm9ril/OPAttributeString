@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/url9ril/OPAttributeString'
+  s.homepage         = 'https://github.com/urm9ril/OPAttributeString'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'url9ril' => '348043793@qq.com' }
-  s.source           = { :git => 'https://github.com/url9ril/OPAttributeString.git', :tag => s.version.to_s }
+  s.author           = { 'urm9ril' => '348043793@qq.com' }
+  s.source           = { :git => 'https://github.com/urm9ril/OPAttributeString.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'

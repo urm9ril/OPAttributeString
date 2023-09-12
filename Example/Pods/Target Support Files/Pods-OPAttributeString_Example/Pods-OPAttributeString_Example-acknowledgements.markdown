@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## OPAttributeString
 
-Copyright (c) 2023 url9ril <348043793@qq.com>
+Copyright (c) 2023 urm9ril <348043793@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

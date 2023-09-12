@@ -1,7 +1,7 @@
 {
   "name": "OPAttributeString",
   "version": "0.1.0",
-  "summary": "A short description of OPAttributeString.",
+  "summary": "链式编程创建属性字符串",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/url9ril/OPAttributeString",
   "license": {
@@ -16,8 +16,16 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "source_files": "OPAttributeString/Classes/**/*",
-  "public_header_files": "OPAttributeString/Classes/OPAttributeString.h"
+  "public_header_files": "OPAttributeString/Classes/OPAttributeString.h",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "VALID_ARCHS": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "VALID_ARCHS": "arm64"
+  }
 }

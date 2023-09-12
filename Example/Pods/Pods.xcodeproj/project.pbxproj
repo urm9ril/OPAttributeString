@@ -44,13 +44,13 @@
 		01215F9A1C3043F5B57B5483ACF38CC2 /* Pods-OPAttributeString_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPAttributeString_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		018FD61F4803C4C1036B4AC726AFF02F /* NSString+OPAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+OPAttribute.m"; path = "OPAttributeString/Classes/NSString+OPAttribute.m"; sourceTree = "<group>"; };
 		0D658F1838792FDA4B886AAB11955A29 /* OPAttributeString.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OPAttributeString.modulemap; sourceTree = "<group>"; };
-		0EACED34F11C9EB6B21F819FF5D12F89 /* OPAttributeString.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OPAttributeString.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		18CBE58948EBE22F4BBEE833754C5EEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0EACED34F11C9EB6B21F819FF5D12F89 /* OPAttributeString.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OPAttributeString.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		18CBE58948EBE22F4BBEE833754C5EEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		24085F4FBD81DF1D712B72064764D06D /* OPAttributeString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPAttributeString.h; path = OPAttributeString/Classes/OPAttributeString.h; sourceTree = "<group>"; };
 		2BC792316CC54365891EFF6666B77EAE /* Pods-OPAttributeString_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OPAttributeString_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2FB0AFD8E53269C7AEEED29E03EA3BF7 /* Pods-OPAttributeString_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPAttributeString_Example-frameworks.sh"; sourceTree = "<group>"; };
 		34A2E4E72B269FECB6AE82E2C1B88CBD /* Pods-OPAttributeString_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OPAttributeString_Example"; path = Pods_OPAttributeString_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35652686C59296FEF6C0D790D80FE077 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		35652686C59296FEF6C0D790D80FE077 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5BCE26B95BF2E001F5AC8AE0FE64F346 /* OPAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPAttribute.h; path = OPAttributeString/Classes/OPAttribute.h; sourceTree = "<group>"; };
 		5CB0F4D3A4D6EF81F3AA65D49F371676 /* Pods-OPAttributeString_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OPAttributeString_Tests-dummy.m"; sourceTree = "<group>"; };
 		6265503F24249EC76E318140FF060CB9 /* OPAttributeString-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OPAttributeString-umbrella.h"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		87ECA7F5098357B0FBB97F93970F0879 /* NSString+OPAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+OPAttribute.h"; path = "OPAttributeString/Classes/NSString+OPAttribute.h"; sourceTree = "<group>"; };
 		8C3DC563A32BCD87B6844AAE085CF622 /* Pods-OPAttributeString_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPAttributeString_Example-Info.plist"; sourceTree = "<group>"; };
 		8F563EAC790899DF6C79C2C2503C4624 /* Pods-OPAttributeString_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPAttributeString_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD19D9F8121CF7BA51E42F7EDEF1BD4 /* OPAttributeString-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OPAttributeString-Info.plist"; sourceTree = "<group>"; };
 		A615C84D3C601B1FC76FC1D2C8605F3A /* OPAttributeString.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OPAttributeString.debug.xcconfig; sourceTree = "<group>"; };
 		AE03E8CC180BB5CD0D7838588833E4BF /* Pods-OPAttributeString_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPAttributeString_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -576,8 +576,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
